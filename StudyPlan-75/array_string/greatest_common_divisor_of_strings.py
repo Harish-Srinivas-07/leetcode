@@ -1,6 +1,7 @@
 """
 Leetcode 75 - 1071. Greatest Common Divisor of Strings
 https://leetcode.com/problems/greatest-common-divisor-of-strings/
+greatest_common_divisor_of_strings.py
 
 Difficulty: Easy
 Tags: String, Math, GCD
