@@ -2,6 +2,7 @@
 Leetcode 75 - 345. Reverse Vowels of a String
 https://leetcode.com/problems/reverse-vowels-of-a-string/
 reverse_vowels_of_a_string.py
+ARRAY_STRING
 
 Difficulty: Easy
 Tags: String, Two Pointers
@@ -13,7 +14,6 @@ Examples:
 - Input: s = "IceCreAm"     → Output: "AceCreIm"
 - Input: s = "leetcode"     → Output: "leotcede"
 """
-
 
 def solve(s: str):
     res = []

@@ -1,13 +1,14 @@
 """
-Leetcode 75 - 151. Reverse Words in a String  
+Leetcode 75 - 151. Reverse Words in a String
 https://leetcode.com/problems/reverse-words-in-a-string/
 reverse_words_in_a_string.py
+ARRAY_STRING
 
-Difficulty: Medium  
+Difficulty: Medium
 Tags: String, Two Pointers
 
-Given a string `s`, reverse the order of the words.  
-A word is defined as a sequence of non-space characters.  
+Given a string `s`, reverse the order of the words.
+A word is defined as a sequence of non-space characters.
 The result should have words separated by a single space with no leading or trailing spaces.
 
 Examples:

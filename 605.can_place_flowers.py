@@ -2,6 +2,7 @@
 Leetcode 75 - 605. Can Place Flowers
 https://leetcode.com/problems/can-place-flowers/
 can_place_flowers.py
+ARRAY_STRING
 
 Difficulty: Easy
 Tags: Array, Greedy
@@ -47,5 +48,5 @@ if __name__ == "__main__":
 """
 HINT
 
-no need to track the array -- maintain the variable alone -- make check the left & right array for check condition
+no need to track the array -- maintain the variable alone -- make check the left & right array element condition
 """

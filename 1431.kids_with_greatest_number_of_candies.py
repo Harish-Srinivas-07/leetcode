@@ -2,6 +2,7 @@
 Leetcode 75 - 1431. Kids With the Greatest Number of Candies
 https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 kids_with_greatest_number_of_candies.py
+ARRAY_STRING
 
 Difficulty: Easy
 Tags: Array
