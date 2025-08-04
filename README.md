@@ -18,7 +18,7 @@ Using the script `leetcode_template_fetcher.py`, you can:
 
 ```
 
-E:\leetcode\283.move\_zeroes.py
+E:\leetcode\283.move_zeroes.py
 
 ````
 
