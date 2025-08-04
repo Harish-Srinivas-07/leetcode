@@ -77,9 +77,10 @@ def slugify_title_for_file(name):
     name = re.sub(r'[^a-z0-9]+', '_', name)
     return name.strip('_')
 
-def format_python_stub(problem):
+
+def format_python_stub(problem, user_number):
     method_name = slugify_title_for_file(problem["title"])
-    file_name = f"{problem['id']}.{method_name}.py"
+    file_name = f"{user_number}.{method_name}.py"
     url = f"https://leetcode.com/problems/{problem['slug']}/"
 
     docstring = f'''"""
@@ -106,6 +107,7 @@ if __name__ == "__main__":
 '''
 
     return file_name, code
+
 
 def save_to_file(file_name, code):
     os.makedirs(SAVE_DIR, exist_ok=True)
@@ -143,7 +145,7 @@ def main():
                 slug = number_to_slug[num]
                 print(f"[INFO] Fetching problem #{num}: {slug} ...")
                 q = fetch_problem_description(slug)
-                file_name, code = format_python_stub(q)
+                file_name, code = format_python_stub(q, num)
                 save_to_file(file_name, code)
 
             except ValueError:
