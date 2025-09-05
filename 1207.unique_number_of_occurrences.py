@@ -38,7 +38,7 @@ from typing import List
 def unique_number_of_occurrences(arr: List[int]) -> bool:
     freq = {}
     for i in arr:
-        freq[i] = freq.get(i,0)+1
+        freq[i] = freq.get(i, 0) + 1
     count = freq.values()
     return len(count) == len(set(count))
 

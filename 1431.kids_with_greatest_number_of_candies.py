@@ -39,7 +39,7 @@ from typing import List
 
 def solve(candy: List[int], extraCandy: int) -> List[bool]:
     max_candy = max(candy)
-    return [max_candy <= i+extraCandy for i in candy]
+    return [max_candy <= i + extraCandy for i in candy]
 
 
 if __name__ == "__main__":

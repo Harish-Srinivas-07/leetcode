@@ -17,6 +17,7 @@ Examples:
 - Input:  word1 = "abcd", word2 = "pq"     → Output: "apbqcd"
 """
 
+
 def mergeAlternately(word1: str, word2: str) -> str:
     res = []
     i = 0
@@ -25,8 +26,8 @@ def mergeAlternately(word1: str, word2: str) -> str:
             res.append(word1[i])
         if i < len(word2):
             res.append(word2[i])
-        i+=1
-    return ''.join(res)
+        i += 1
+    return "".join(res)
 
 
 # ✅ Test cases

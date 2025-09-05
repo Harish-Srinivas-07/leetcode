@@ -65,13 +65,13 @@ def determine_if_two_strings_are_close(word1: str, word2: str) -> bool:
         freq1[i] = freq1.get(i, 0) + 1
     for i in word2:
         freq2[i] = freq2.get(i, 0) + 1
-    
+
     # keys match
-    if set(freq1.keys())!= set(freq2.keys()):
+    if set(freq1.keys()) != set(freq2.keys()):
         return False
-    
+
     # values count check
-    val1= sorted(freq1.values())
+    val1 = sorted(freq1.values())
     val2 = sorted(freq2.values())
     return val1 == val2
 
@@ -84,8 +84,8 @@ if __name__ == "__main__":
     word1 = "cabbba"
     word2 = "abbccc"
     print("Output:", determine_if_two_strings_are_close(word1, word2))
-    
-    
+
+
 """
 HINT
 

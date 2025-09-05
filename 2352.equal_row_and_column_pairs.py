@@ -56,7 +56,8 @@ def equal_row_and_column_pairs(grid: List[List[int]]) -> int:
     for row in range(n):
         col = tuple(grid[r][row] for r in range(n))
         ans += freq.get(col, 0)
-
+    # for row in zip(*grid):
+    #     ans += freq.get(row, 0)
     return ans
 
 
@@ -64,3 +65,10 @@ if __name__ == "__main__":
     grid = [[3, 2, 1], [1, 7, 6], [2, 7, 7]]
     grid = [[3, 1, 2, 2], [1, 4, 4, 5], [2, 4, 2, 2], [2, 4, 2, 2]]
     print("Output:", equal_row_and_column_pairs(grid))
+
+"""'
+HINT
+make freq count for all row, then make count for the col [trans] with prev freq
+use *zip or transverse 
+
+"""

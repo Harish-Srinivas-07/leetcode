@@ -43,3 +43,9 @@ if __name__ == "__main__":
     nums = [1,12,-5,-6,50,3]
     k = 4 
     print("Output:", maximum_average_subarray_i(nums, k))
+
+
+"""
+HINT 
+get sum of k part -- then slide (add upcoming element, remove last element)
+"""
