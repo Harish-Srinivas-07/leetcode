@@ -6,7 +6,7 @@ This repository helps you generate clean Python stubs for LeetCode problems and 
 
 ### ✅ 1. Auto Template Generator
 
-Using the script `leetcode_template_fetcher.py`, you can:
+Using the script `template.py`, you can:
 
 - Enter any LeetCode problem number (`1–3631`)
 - Automatically fetch:
@@ -46,7 +46,7 @@ pip install requests beautifulsoup4
 1. Run the fetcher script:
 
 ```bash
-python leetcode_template_fetcher.py
+python template.py
 ```
 
 2. Enter a LeetCode problem number (e.g., `1`, `283`, `42`)
