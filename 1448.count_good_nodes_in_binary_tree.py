@@ -74,7 +74,7 @@ def count_good_nodes_in_binary_tree(root: Optional[TreeNode]) -> int:
         # count good when node val is greater then prev maxx
         good = 1 if node.val >= maxx else 0
 
-        # new ,axx pa in recursive
+        # new maxx in recursive
         new_maxx = max(maxx, node.val)
 
         # recursive part
